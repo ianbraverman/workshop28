@@ -3,11 +3,11 @@ import Navbar from "./Navbar";
 
 export default function Root() {
   return (
-    <>
-      <Navbar />
-      <main>
+    <article className="Root">
+      <Navbar className="Navbar" />
+      <main className="Thecolor">
         <Outlet />
       </main>
-    </>
+    </article>
   );
 }

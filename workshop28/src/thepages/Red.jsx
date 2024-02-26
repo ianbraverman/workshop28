@@ -1,3 +1,7 @@
 export default function Red() {
-  return <h1>Red</h1>;
+  return (
+    <article className="Red">
+      <h1>Red</h1>
+    </article>
+  );
 }

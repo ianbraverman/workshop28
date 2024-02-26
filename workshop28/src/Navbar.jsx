@@ -1,7 +1,11 @@
 import { NavLink } from "react-router-dom";
 
-export default function Navbar () {
-    return(
-        //put in nav links
-    )
+export default function Navbar() {
+  return (
+    <nav>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/red">Red</NavLink>
+      <NavLink to="/blue">Blue</NavLink>
+    </nav>
+  );
 }
